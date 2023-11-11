@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Balinese&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden hidden;
+    width: 100vw;
+    height: 100vh;
+}
+div#select{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0), rgb(0, 0, 0));
+    transition: transform 0.5s;
+    transform: translateX(100px);
+}
+div#select i{
+    font-size: 40px;
+    margin: 10px;
+    transition: transform 0.5s;
+}
+div#select #persona{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+div#select div{
+    border: 2px black solid;
+    width: 104px;
+    height: 104px;
+    margin: 15px;
+    cursor: pointer;
+    transition: filter 0.5s;
+}
+.selecionado{
+    filter: drop-shadow(0px 0px 10px rgb(60, 52, 131));
+}
+#background{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+#background h2{
+    font-family: 'Noto Serif Balinese', serif;
+}
+#background p{
+    font-family: 'PT Sans', sans-serif;
+}
+
+/*Cavaleiro Da Lua*/
+#background.cavaleiroDaLua{
+    margin-left: 15px;
+}
+#background.cavaleiroDaLua #backdiv{
+    width: 35%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+#background.cavaleiroDaLua h2{
+    font-size: 40px;
+    animation: 1s fadeIn;
+}
+#background.cavaleiroDaLua p{
+    font-size: 24px;
+    text-align: center;
+    animation: 2s fadeDown;
+}
+
+/*Justiceiro*/
+#background.Justiceiro #backdiv{
+    width: 35%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+
+}
+#background.Justiceiro h2{
+    font-size: 40px;
+    animation: 1s fadeIn;
+    color: white;
+}
+#background.Justiceiro p{
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    animation: 2s fadeDown;
+}
+
+/*Doom Slayer*/
+#background.Doom #backdiv{
+    width: 35%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+
+}
+#background.Doom h2{
+    font-size: 40px;
+    animation: 1s fadeIn;
+}
+#background.Doom p{
+    font-size: 24px;
+    text-align: center;
+    animation: 2s fadeDown;
+}
+
+/*Justiceiro*/
+#background.StarLord #backdiv{
+    width: 35%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    
+}
+#background.StarLord h2{
+    font-size: 40px;
+    animation: 1s fadeIn;
+    color: white;
+}
+#background.StarLord p{
+    font-size: 24px;
+    text-align: center;
+    animation: 2s fadeDown;
+    color: white;
+}
+
+@keyframes fadeIn {
+    0%{
+        filter: blur(100px);
+        transform: translateY(-100px)
+    }
+}
+@keyframes fadeDown {
+    0%{
+        filter: blur(100px);
+        transform: translateY(100px)
+    }
+}

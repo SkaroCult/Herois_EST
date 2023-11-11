@@ -1,0 +1,40 @@
+{
+    "personagens": {
+        "cavaleiroDaLua": [
+            {
+                "nome": "Cavaleiro da Lua",
+                "historia": "Marc Spector era um mercenário e lutador de elite, mas sua vida mudou drasticamente quando foi traído por seu empregador e deixado para morrer no deserto egípcio. Ele foi encontrado por seguidores do deus egípcio Khonshu, o deus da lua, e ressuscitado.",
+                "background": "img/CavaleiroDaLuaWall.jpg",
+                "fotoPersona": "",
+                "miniFoto": "img/CavaleiroDaLua.jpg"
+            }
+        ],
+        "justiceiro": [
+            {
+                "nome": "O Justiceiro",
+                "historia": "Frank Castle era um fuzileiro naval altamente condecorado que serviu durante a Guerra do Vietnã. Após seu retorno aos Estados Unidos, ele se tornou um agente do FBI, mas sua vida mudou drasticamente quando sua família foi brutalmente assassinada em retaliação por testemunhar um assassinato em um parque.",
+                "background": "img/JusticeiroWall.jpg",
+                "fotoPersona": "",
+                "miniFoto": "img/Justiceiro.jpg"
+            }
+        ],
+        "doom": [
+            {
+                "nome": "Doom Guy",
+                "historia": "Um portal para o inferno é aberto em Marte por uma corporação chamada UAC (Union Aerospace Corporation), resultando em uma invasão demoníaca. O Doom Slayer, anteriormente conhecido como Doomguy, era um fuzileiro espacial que se encontrava em Marte quando o caos começou.",
+                "background": "img/DoomWall.jpg",
+                "fotoPersona": "",
+                "miniFoto": "img/Doom.jpg"
+            }
+        ],
+        "starLord": [
+            {
+                "nome": "Senhor das Estrelas",
+                "historia": "Peter Quill foi inicialmente concebido como um humano comum, filho de uma mãe terrestre e de um pai alienígena de uma raça chamada Spartoi. Após a morte de sua mãe, ele embarcou em uma jornada espacial, tornando-se um piloto e eventualmente adotando o nome de Senhor das Estrelas.",
+                "background": "img/StarLordWall.jpg",
+                "fotoPersona": "",
+                "miniFoto": "img/StarLord.jpg"
+            }
+        ]
+    }
+}
